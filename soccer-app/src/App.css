@@ -1,0 +1,31 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+
+.red-components {
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 20vw;
+}
+
+.blue-components {
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  background-color: blue;
+  color: aqua;
+  border: 2px solid red;
+  border-radius: 20px;
+  text-align: center;
+  width: 20vw;
+}
