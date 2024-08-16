@@ -1,0 +1,115 @@
+.cardElement {
+    width: 20vw;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.headerGreenElement {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 90%;
+    background-color: green;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.headerLightblueElement {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 90%;
+    background-color: blue;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.headerBlueElement {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 90%;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.headerElement {
+    font-size: 34px;
+    color: white;
+}
+
+.priceElement {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    margin: auto;
+    margin-top: -2vh;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.priceElement h3 {
+    position: relative;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    margin: 0;
+}
+
+.greenButton {
+    font-size: 24px;
+    color: white;
+    background-color: green;
+    margin-top: 20vh;
+    height: 5vh;
+    width: 90%;
+}
+
+.lightBlueButton {
+    font-size: 24px;
+    color: white;
+    background-color: lightblue;
+    margin-top: 20vh;
+    height: 5vh;
+    width: 90%;
+}
+
+.blueButton {
+    font-size: 24px;
+    color: white;
+    background-color: blue;
+    margin-top: 20vh;
+    height: 5vh;
+    width: 90%;
+}
+
+.textElement {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    height: 5vh;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.falseColor {
+    color: red;
+}
+
+.trueColor {
+    color: green;
+}
